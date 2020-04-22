@@ -1,4 +1,4 @@
-FROM image-registry.openshift-image-registry.svc:5000/default/ubi
+FROM image-registry.openshift-image-registry.svc:5000/openshift/ubi
 
 RUN yum -y install --disableplugin=subscription-manager \
   httpd24 rh-php72 rh-php72-php \
